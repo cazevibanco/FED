@@ -1,0 +1,182 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  background-color: black;
+  padding: 5px 0;
+}
+
+.header-image {
+  width: 25%;
+  height: auto;
+}
+
+.blue-banner {
+  background-color: #00008B; /* Deep blue color */
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 0.1px 0; /* Further reduced padding to make the banner thinner */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer {
+  bottom: 0;
+  width: 99%; /* Adjusted to 100% to span the entire width */
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5%; /* Reduced padding to make the footer thinner */
+  font-size: 10px; /* Reduced font size */
+}
+
+.promo {
+  background-color: #00008B; /* Deep blue color */
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 0.1px 0;
+  font-size: 2opx;
+  font-weight: bold;
+}
+
+.menu-image {
+  width: 55%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  float: left;
+  flex: 1; /* Align to the left */
+  margin-left: 30%; /* Add margin to center it a bit */
+  margin-top: 1%; /* Add margin to center it a bit */
+}
+
+.order-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.menu-image {
+  width: 60%; /* Adjust the width as needed */
+  height: 30%;
+  margin-left: 10%;
+  margin-top: 0%; /* Remove margin */
+  padding: 1em;
+}
+
+.order-form {
+  width: 80%;
+}
+
+.order-table {
+  width: 50%; /* Decreased width */
+  border-collapse: collapse;
+  margin: 20px auto; /* Center the table horizontally and add top/bottom margin */
+}
+
+.order-table td {
+  padding: 1px; /* Reduced padding to make it thinner */
+  border: 1px solid #ddd;
+  text-align: center;
+  color: black;
+}
+
+.order-table label {
+  display: block;
+  margin-bottom: 1px; /* Reduced margin */
+  color: black;
+}
+
+.order-table input[type="text"],
+.order-table input[type="number"] {
+  width: 90%;
+  padding: 0.5px; /* Further reduced padding */
+  box-sizing: border-box;
+  color: black;
+}
+
+.order-table input[type="checkbox"] {
+  margin-right: 1px; /* Reduced margin */
+}
+
+.order-table button {
+  width: 100%;
+  padding: 1px; /* Further reduced padding */
+  height: 20px; /* Adjusted height to make it thinner */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.order-table button:hover {
+  background-color: #45a049;
+}
+
+.order-box {
+  width: 60%; /* Adjust the width as needed */
+  margin: 20px auto; /* Center the box */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.order-table {
+  width: 100%; /* Full width within the box */
+  border-collapse: collapse;
+  margin: 20px 0; /* Add top/bottom margin */
+}
+
+.order-table th, .order-table td {
+  padding: 5px; /* Adjust padding as needed */
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.order-table input[type="text"],
+.order-table input[type="number"] {
+  width: 90%;
+  padding: 2px; /* Adjust padding as needed */
+  box-sizing: border-box;
+}
+
+.order-table input[type="checkbox"] {
+  margin-right: 5px; /* Adjust margin as needed */
+}
+
+.order-table button {
+  width: 100%;
+  padding: 5px; /* Adjust padding as needed */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.order-table button:hover {
+  background-color: #45a049;
+}
+.order-box {
+  width: 60%; /* Adjust the width as needed */
+  margin: 20px auto; /* Center the box */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.right-side {
+  flex-direction: column;
+  color: black; /* Set the font color to black */
+  margin-right: 10%;
+}
+
+.totals-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
